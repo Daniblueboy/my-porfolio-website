@@ -13,9 +13,9 @@ export const environment = {
 
   // create email js acccount
 
-  mailService: 'input this details from your email js account',
-  templateId: 'nput this details from your email js account',
-  emailJSKey: 'nput this details from your email js account',
+  mailService: 'service_lk2fvbi',
+  templateId: 'template_t7eoirk',
+  emailJSKey: '33WPwJfAMApxoHAmD',
 
   // project
 

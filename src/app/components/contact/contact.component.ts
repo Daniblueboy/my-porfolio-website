@@ -16,7 +16,7 @@ export class ContactComponent {
   key = environment.emailJSKey;
   serviceId = environment.mailService;
   templateId = environment.templateId;
-  toMail: string = 'Juyel';
+  // toMail: string = 'Juyel';
 
   contactForm: any = FormGroup;
 
@@ -40,7 +40,7 @@ export class ContactComponent {
     const formData = this.contactForm.value;
     let response = await emailjs.send(this.serviceId, this.templateId, {
       from_name: formData.name,
-      to_name: this.toMail,
+      // to_name: this.toMail,
       from_email: formData.email,
       subject: formData.subject,
       message: formData.message,
